@@ -1,0 +1,68 @@
+Cell1
+#read the rankings into a dataframe
+#order the data so that the rank of each institution is the index into the dataframe
+#the columns should then be the name, location and so on
+#display the dataframe
+
+Cell2
+#take all the UK institutions and make a seperate dataframe for them
+#instead of their world rank, order them by national rank (the order that they appear in the world ranks), use it as index
+#the columns should be in the same order as q1
+#display the dataframe
+
+Cell3
+#display these values rounded to 2dp (for the uk_rankings)
+#mean academic reputation
+#min academic reputation
+#max academic reputation
+#standard deviation academic reputation
+#95% confidence interval academic reputation
+
+Cell4
+#plot bar graph comparing Citations per faculty of unis only in:
+#United States
+#United Kingdom
+#Canada
+#Australia
+#Netherlands
+#Germany
+#The horizontal axis shows the countries
+#vertical axis represents mean measure of the citations per faculty
+#add error bars to the graph showing the 95% confidence interval
+#add title and axis labels
+
+Cell5
+#test difference between citations per faculty of unis in United States and Netherlands
+#print the name of the test and results
+#print one sentence stating conclusion and justification on the difference
+
+Cell6
+#find the correlation between the average pixel intensity and image quality of the images in model.zip
+#average pixel intensity = average of all pixel values
+#make a scatter plot
+#horizontal axis for average pixel intensity
+#vertical axis for image quality
+#add title, axis labels
+#print the Pearson linear correlation coefficient
+#print one sentence on your interpretation on the strength
+
+Cell7
+#using model dataset
+#build linear regression model to predict image quality (use IQ as the name of variable) from average pixel intensity (use API as the name of variable)
+#make a scatter plot, horizontal axis is API, vertical is IQ, add data points from the dataset
+#add the linear regression model to the plot
+#add title, axis labels
+#print the linear equation (rounded values to 2dp)
+#print the mean squared error (the average of the squares of the errors) on the model dataset
+#find the point where IQ is 5.5
+#rotate the linear equation around this point by 2 degrees clockwise
+#print the new linear equation
+#print the new mean squared error
+
+Cell8
+evaluate the effectiveness of the linear regression model on the test dataset
+create a dataframe where the first column is the image name, second is the true image quality, third is the predicted quality
+print the mean squared error of the model on the test dataset
+print one sentence about the effectiveness of the model by comparing the MSE on the model and the test dataset
+print an improved model by adjusting the slope or intercept for the test dataset
+print the MSE of the improved model on the test dataset
